@@ -1,3 +1,10 @@
+# ------------------------------------------------- #
+# Title: Demo01 - Working with lists and files
+# Description: Write and Reading file data using a list of dictionary rows (two-dimensional table)
+# ChangeLog: (Who, When, What)
+# RRoot,1.1.2030,Created Script
+# ------------------------------------------------- #
+
 try:
     # Check that the input does not include numbers
     student_last_name = input("Enter the student's last name: ")
@@ -12,5 +19,3 @@ except Exception as e:
     print("There was a non-specific error!\n")
     print("Built-In Python error info: ")
     print(e, e.__doc__, type(e), sep='\n')
-
-
